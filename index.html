@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="img/icono-dinero.png" alt="icono de moneda">
+    <h1>Conversor de Monedas</h1>
+
+    <div id="contenedor">
+        <h2>Escoge el tipo de moneda y la cantidad para hacer la conversion</h2>
+        <br><br>
+        <select id="entrada" class="monedas">
+            <option value="" disabled selected>Por favor, selecciona una opción</option>
+            
+        </select>
+        
+        <input type="number" id="monedaAConvertir">
+        <br><br>
+        <button id="convertir">Convertir</button>
+        <br><br>
+        <select id="salida" class="monedas">
+            <option value="" disabled selected>Por favor, selecciona una opción</option>
+           
+        </select>
+        <input type="number" id="monedaConvertida">
+        <br><br>
+        <p id="error"></p>
+   
+    </div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
