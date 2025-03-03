@@ -1,0 +1,20 @@
+{
+  "name": "conversor-monedas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080",
+    "cy:open": "cypress open",
+    "test": "start-server-and-test start http://localhost:8080 cy:open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}
